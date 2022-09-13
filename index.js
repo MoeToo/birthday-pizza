@@ -58,40 +58,40 @@ var Birthday = (function () {
         var month;
         switch (this.date.getMonth()) {
             case 0:
-                month = 'jan';
+                month = '一月';
                 break;
             case 1:
-                month = 'feb';
+                month = '二月';
                 break;
             case 2:
-                month = 'mar';
+                month = '三月';
                 break;
             case 3:
-                month = 'apr';
+                month = '四月';
                 break;
             case 4:
-                month = 'may';
+                month = '五月';
                 break;
             case 5:
-                month = 'june';
+                month = '六月';
                 break;
             case 6:
-                month = 'july';
+                month = '七月';
                 break;
             case 7:
-                month = 'aug';
+                month = '八月';
                 break;
             case 8:
-                month = 'sept';
+                month = '九月';
                 break;
             case 9:
-                month = 'oct';
+                month = '十月';
                 break;
             case 10:
-                month = 'nov';
+                month = '十一月';
                 break;
             case 11:
-                month = 'dec';
+                month = '十二月';
                 break;
         }
         return month + ' ' + this.date.getDate() + ', ' + this.date.getFullYear();
@@ -225,40 +225,40 @@ function updateLocationHash() {
     var month;
     switch (date.getMonth()) {
         case 0:
-            month = 'january';
+            month = '一月';
             break;
         case 1:
-            month = 'february';
+            month = '二月';
             break;
         case 2:
-            month = 'march';
+            month = '三月';
             break;
         case 3:
-            month = 'april';
+            month = '四月';
             break;
         case 4:
-            month = 'may';
+            month = '五月';
             break;
         case 5:
-            month = 'june';
+            month = '六月';
             break;
         case 6:
-            month = 'july';
+            month = '七月';
             break;
         case 7:
-            month = 'august';
+            month = '八月';
             break;
         case 8:
-            month = 'september';
+            month = '九月';
             break;
         case 9:
-            month = 'october';
+            month = '十月';
             break;
         case 10:
-            month = 'november';
+            month = '十一月';
             break;
         case 11:
-            month = 'december';
+            month = '十二月';
             break;
     }
     var day = date.getDate();
@@ -276,12 +276,12 @@ function updateBirthdays() {
         if (birthday.isToday()) {
             $('.age-' + name).addClass('birthday-today');
             $('.birthday-' + name).addClass('birthday-today');
-            $('.birthday-' + name).text('TODAY!');
+            $('.birthday-' + name).text('就是今天！');
         }
         else if (birthday.isTomorrow()) {
             $('.age-' + name).addClass('birthday-tomorrow');
             $('.birthday-' + name).addClass('birthday-tomorrow');
-            $('.birthday-' + name).text('tomorrow');
+            $('.birthday-' + name).text('就在明天！');
         }
         else {
             $('.birthday-' + name).text(birthday.toDateString());
