@@ -68,40 +68,40 @@ class Birthday {
     var month
     switch (this.date.getMonth()) {
       case 0:
-        month = '一月'
+        month = 'jan'
         break
       case 1:
-        month = '二月'
+        month = 'feb'
         break
       case 2:
-        month = '三月'
+        month = 'mar'
         break
       case 3:
-        month = '四月'
+        month = 'apr'
         break
       case 4:
-        month = '五月'
+        month = 'may'
         break
       case 5:
-        month = '六月'
+        month = 'june'
         break
       case 6:
-        month = '七月'
+        month = 'july'
         break
       case 7:
-        month = '八月'
+        month = 'aug'
         break
       case 8:
-        month = '九月'
+        month = 'sept'
         break
       case 9:
-        month = '十月'
+        month = 'oct'
         break
       case 10:
-        month = '十一月'
+        month = 'nov'
         break
       case 11:
-        month = '十二月'
+        month = 'dec'
         break
     }
 
@@ -260,40 +260,40 @@ function updateLocationHash(): void {
   var month
   switch (date.getMonth()) {
     case 0:
-      month = '一月'
+      month = 'january'
       break
     case 1:
-      month = '二月'
+      month = 'february'
       break
     case 2:
-      month = '三月'
+      month = 'march'
       break
     case 3:
-      month = '四月'
+      month = 'april'
       break
     case 4:
-      month = '五月'
+      month = 'may'
       break
     case 5:
-      month = '六月'
+      month = 'june'
       break
     case 6:
-      month = '七月'
+      month = 'july'
       break
     case 7:
-      month = '八月'
+      month = 'august'
       break
     case 8:
-      month = '九月'
+      month = 'september'
       break
     case 9:
-      month = '十月'
+      month = 'october'
       break
     case 10:
-      month = '十一月'
+      month = 'november'
       break
     case 11:
-      month = '十二月'
+      month = 'december'
       break
   }
 
